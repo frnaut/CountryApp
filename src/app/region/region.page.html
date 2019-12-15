@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start"> 
+        <ion-back-button defaultHref="/"></ion-back-button>
+        <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+ 
+    <ion-title>Continentes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-list>
+    <ion-item detail="true" (click)="contientes( 'africa' )">
+      <h5>Africa</h5>
+    </ion-item>
+
+    <ion-item detail="true" (click)="contientes( 'america' )">
+      <h5>America</h5>
+    </ion-item>
+
+    <ion-item detail="true" (click)="contientes( 'asia' )">
+      <h5>Asia</h5>
+    </ion-item>
+
+    <ion-item detail="true" (click)="contientes( 'europa' )">
+      <h5>Europa</h5>
+    </ion-item>
+
+    <ion-item detail="true" (click)="contientes( 'oceania' )">
+      <h5>Oceania</h5>
+    </ion-item>
+  </ion-list>
+
+<ion-content>
+
+</ion-content>

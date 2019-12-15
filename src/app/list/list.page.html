@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Idiomas mas hablados
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-list>
+
+    <ion-item (click)="goSpanish()" detail="true">
+      <ion-text>
+        <h5>Español</h5>
+      </ion-text>
+    </ion-item>
+
+    <ion-item (click)="goEnglish()" detail="true">
+      <ion-text>
+        <h5>Ingles</h5>
+      </ion-text>
+    </ion-item>
+
+    <ion-item (click)="goFrench()" detail="true">
+      <ion-text>
+        <h5>Frances</h5>
+      </ion-text>
+    </ion-item>
+
+    <ion-item (click)="goChinese()" detail="true">
+      <ion-text>
+        <h5>Chino</h5>
+      </ion-text>
+    </ion-item>
+
+
+  </ion-list>
+
+<ion-content>
+  
+</ion-content>
